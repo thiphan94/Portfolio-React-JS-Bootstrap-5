@@ -1,23 +1,42 @@
-import './App.css';
+import React from 'react';
+import Navbar from './components/inc/Navbar';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Project from './components/pages/Project';
+import Contact from './components/pages/Contact';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to my portfolio</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Switch>
+
+        
+          <Route exact path="/">
+            <Home />
+          </Route>
+
+          <Route path="/about">
+            <About />
+          </Route>
+
+          <Route path="/project">
+            <Project />
+          </Route>
+
+          <Route path="/contact">
+            <Contact />
+          </Route>
+
+
+        </Switch>  
+        
+      </div>
+    </Router>
+    
   );
 }
 
