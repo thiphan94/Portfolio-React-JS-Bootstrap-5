@@ -6,7 +6,7 @@ import About from './components/pages/About';
 import Project from './components/pages/Project';
 import Contact from './components/pages/Contact';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-
+import Footer from './components/inc/Footer';
 
 function App() {
   return (
@@ -34,6 +34,7 @@ function App() {
 
 
         </Switch>  
+        <Footer />
         
       </div>
     </Router>

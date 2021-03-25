@@ -1,4 +1,3 @@
-
 .section{
 
   padding-top: 40px;
@@ -74,13 +73,57 @@ li.timeline-item::before {
 * ==========================================
 *
 */
-body#About {
+body {
   background: #E8CBC0;
-  background: -webkit-linear-gradient(to right, #e7b9c4, #636FA4);
-  background: linear-gradient(to right, #f5cee6, #636FA4);
+  background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
+  background: linear-gradient(to right, #E8CBC0, #636FA4);
   min-height: 100vh;
 }
 
 .text-gray {
   color: #999;
+}
+.container {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col-md-4 {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* vertical spacing between columns */
+
+[class*="col-"] {
+  margin-bottom: 30px;
+}
+
+
+.footer a{
+  color: #ffff;
+  text-decoration: none;
+}
+
+#box{
+  border: 1px solid rgb(200, 200, 200);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+  background: rgba(200, 200, 200, 0.1);
+  border-radius: 4px;
+  top:50px;
+}
+
+h2{
+  text-align:center;
+  color:#fff;
+}
+
+.carousel {
+  width: 100% !important;
+  height: 75vh;
 }

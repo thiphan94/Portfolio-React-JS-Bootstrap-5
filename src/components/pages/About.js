@@ -1,6 +1,4 @@
 import React from 'react';
-import Slider from '../inc/Slider';
-import {Link} from 'react-router-dom';
 
 
 function About(){
@@ -11,28 +9,28 @@ function About(){
                 
                     <div className="container">  
                         <div class="row">
-                            <div class="col-lg-7 mx-auto">
+                        <div class="col-lg-7 mx-auto">
                                 <ul class="timeline">
-                                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                                         <div class="timeline-arrow"></div>
-                                        <h2 class="h5 mb-0">Université Paris 8 Vincennes – Saint-Denis</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2020-2021</span>
-                                        <h6 class="text-small mt-2 font-weight-light">Licence Micro-Informatique et Machines Embarquées </h6>
-                                        <p>Cours: Microprogramme, Développement Android, Développement iOS, Microchip PIC, Java</p>
+                                        <h2 class="h5 mb-0" style={{ backgroundColor: 'grey' }}>University Paris 8 Vincennes – Saint-Denis</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2020-2021</span>
+                                        <h6 class="text-small mt-2 font-weight-light">Bachelor of Embedded System </h6>
+                                        <p>Courses: Microprogramming, Android development, iOS development, Microchip PIC, Java</p>
                                     </li>
                                     <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                                         <div class="timeline-arrow"></div>
-                                        <h2 class="h5 mb-0">Université de Bretagne Occidental </h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2018-2020</span>
-                                        <h6 class="text-small mt-2 font-weight-light">Licence 2 Informatique</h6>
-                                        <p>Cours: Algorithme, C, Architecture, Python, Web sémantique, SQL </p>
-                                        <h6 class="text-small mt-2 font-weight-light">Licence 1 Science de l’ingénieur parcours Informatique</h6>
-                                        <p>Cours: Algorithme, Electronique, OpenGL, Bash, RobotC, Ocaml </p>
+                                        <h2 class="h5 mb-0" style={{ backgroundColor: 'grey' }}>Université de Bretagne Occidental </h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2018-2020</span>
+                                        <h6 class="text-small mt-2 font-weight-light">Second year of bachelor of Computer Science</h6>
+                                        <p>Courses: Algorithm, C, Computer Architecture, Python, Semantic Web, SQL </p>
+                                        <h6 class="text-small mt-2 font-weight-light">First year of bachelor of Computer Science</h6>
+                                        <p>Courses: Algorithm, Electronic, OpenGL, Bash, RobotC, Ocaml </p>
                                     </li>
                                     <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                                         <div class="timeline-arrow"></div>
-                                        <h2 class="h5 mb-0">Université de Caen Normandie</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2013-2016</span>
-                                        <h6 class="text-small mt-2 font-weight-light">Licence Sciences de l’éducation : 
-                parcours des métiers de l’enseignement</h6>
+                                        <h2 class="h5 mb-0" style={{ backgroundColor: 'grey' }}>University of Caen Normandy</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>2013-2016</span>
+                                        <h6 class="text-small mt-2 font-weight-light">Bachelor of education</h6>
                                     </li>
+
                                 </ul>
                              </div>
                         </div>
@@ -44,7 +42,7 @@ function About(){
         
     );
 
-
 }
+
 
 export default About;

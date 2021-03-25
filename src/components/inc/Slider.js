@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider1 from '../images/img1.jpg';
+import Slider1 from '../images/first.jpg';
 
 function Slider(){
     return (
@@ -7,30 +7,22 @@ function Slider(){
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src={Slider1} class="d-block w-100" height="400px" alt="..."/>
+                <img src={Slider1} class="d-block carousel"  alt="..."/>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>Hello, My name is Thi, I am a Computer Science student in France. </h5>
+                    <p>I love both code and design</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src={Slider1} class="d-block w-100" height="400px" alt="..."/>
+                <img src={Slider1} class="d-block carousel" alt="..."/>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>"Codes are a puzzle. A game, just like any other game." - Alan Turing</h5>
                 </div>
                 </div>
-                <div class="carousel-item">
-                <img src={Slider1} class="d-block w-100" height="400px" alt="..."/>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-                </div>
+                
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
