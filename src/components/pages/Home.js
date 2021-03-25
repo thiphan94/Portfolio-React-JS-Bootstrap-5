@@ -12,6 +12,7 @@ function Home(){
                         <div className="col-md-12 text-center">
                             <h3 className="title">Welcome to my portfolio!</h3>
                             <div className="underline mx-auto"></div>
+                            <p>I'm a student of embeded system at University Paris 8, France</p>
                             <p>As my personal project for learning React, I chose to create my own personal portfolio with React JS and Bootstrap 5</p>
                             <Link to="/about" className="btn btn-dark shadow">Read more</Link>
                         </div>

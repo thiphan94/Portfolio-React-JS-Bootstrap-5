@@ -74,10 +74,10 @@ li.timeline-item::before {
 * ==========================================
 *
 */
-body {
+body#About {
   background: #E8CBC0;
-  background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
-  background: linear-gradient(to right, #E8CBC0, #636FA4);
+  background: -webkit-linear-gradient(to right, #e7b9c4, #636FA4);
+  background: linear-gradient(to right, #f5cee6, #636FA4);
   min-height: 100vh;
 }
 
