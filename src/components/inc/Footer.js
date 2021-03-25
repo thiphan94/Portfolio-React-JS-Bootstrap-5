@@ -6,7 +6,7 @@ function Footer(){
                 <div className="container">  
                         <div class="col-md-4">
                             <div class="text-center p-3">
-                                <h6>© 2021 Copyright: Thi PHAN</h6>
+                                <h6>Copyright © 2021 Thi PHAN. All Rights Reserved</h6>
                             </div>
                         </div>
 
