@@ -6,7 +6,7 @@ function Contact(){
             <section className="section" >
                 <div className="container">
                     <div class="row" >  
-                        <div class="col-md-4" id="box">
+                        <div class="col-lg" id="box">
                             <h2>Contact Me!</h2>
                         
                             <div class="form-group">
@@ -56,9 +56,20 @@ function Contact(){
                                 </div>
                             </div>       
                         </div> 
+
+                        
+
+                        <div class="col-md-4" id="box">
+                        <div class="d-flex flex-column justify-content-center align-items-center h-75">
+                            <h6>Thanks for visisting, see you soon! !</h6>
+                        </div>
+                                  
+                        </div> 
                     </div>
                 </div>
             </section>
+
+            
         </div>
     );
 
